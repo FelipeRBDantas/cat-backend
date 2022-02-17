@@ -24,12 +24,12 @@ Projeto de API Backend para consumo de API externa (Cat API - https://thecatapi.
 
 ## Start
 
-- At the root of your project, run via command line:
-* cp .env.example .env
-* composer install
-* php artisan key:generate
-* php artisan migrate
-* docker-compose up -d
+* At the root of your project, run via command line:
+1. cp .env.example .env
+2. composer install
+3. php artisan key:generate
+4. php artisan migrate
+5. docker-compose up -d
 
 ## Features
 
