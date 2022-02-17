@@ -22,6 +22,8 @@ Projeto de API Backend para consumo de API externa (Cat API - https://thecatapi.
 
 :hammer_and_wrench: Docker
 
+:hammer_and_wrench: Imnsonia
+
 ## Start
 
 * At the root of your project, run via command line:
@@ -34,6 +36,10 @@ Projeto de API Backend para consumo de API externa (Cat API - https://thecatapi.
 5. php artisan key:generate
 6. php artisan migrate
 ~~~
+
+## Testes
+
+* At the root of your project, import the "Insomnia_2022-02-17" collection into your imnsonia.
 
 ## Features
 
