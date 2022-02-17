@@ -21,8 +21,8 @@ Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanc
 
 Route::get('/me', [AuthController::class, 'me'])->middleware('auth:sanctum');
 
-Route::get('/breeds/{name}', [CatController::class, 'findByName']);
 Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/breeds/{name}', [CatController::class, 'findByName']);
 });
 
 Route::get('/', function () {
