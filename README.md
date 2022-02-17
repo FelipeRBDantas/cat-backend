@@ -7,6 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About
+Projeto de API Backend para consumo de API externa (Cat API - https://thecatapi.com/) com cacheamento.
+
 ## Tools
 
 :hammer_and_wrench: PHP 7.4.23
@@ -18,6 +21,15 @@
 :hammer_and_wrench: MySQL
 
 :hammer_and_wrench: Docker
+
+## Start
+
+- At the root of your project, run via command line:
+* cp .env.example .env
+* composer install
+* php artisan key:generate
+* php artisan migrate
+* docker-compose up -d
 
 ## Features
 
