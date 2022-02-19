@@ -32,9 +32,9 @@ pipeline {
                 powershell 'php artisan key:generate'
             }
         }
-        stage('Migrar as tabelas') {
+        stage('Pausa o serviço') {
             steps {
-                powershell 'php artisan migrate'
+                powershell 'docker-compose stop'
             }
         }
     }
