@@ -39,6 +39,8 @@ services:
             MYSQL_USER: ${DB_USERNAME}
         volumes:
             - ./.docker/mysql/dbdata:/var/lib/mysql
+        ports:
+            - 3308:3306
         networks:
             - the_cat_network
 
